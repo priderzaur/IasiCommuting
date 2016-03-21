@@ -1,0 +1,39 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;
+        min-width:800px;
+      }
+
+      
+       #map {
+       position:absolute;
+        display:inline-block;
+        top:40px;
+        left:300px;
+        background-color: #474747;
+        min-width:500px;
+      }
+      /*
+      #map_container {
+        margin-left:300px;
+        margin-top:70px;
+        height:90%;
+      } */
+#top_bar {
+ height: 40px;
+ width: 100%;
+  background-color: green;
+ 
+}
+
+#side_bar {
+ width: 300px;
+ position:absolute;
+ top:40px;
+ left:0px;
+ display:inline-block;
+ background-color: black;
+}
+
